@@ -11,6 +11,11 @@ import java.lang.reflect.Method;
 public class App1
 {
 
+    @RunIt(a = 2, b = 5)
+    public static void test(int a, int b){
+        System.out.println(a + b);
+    }
+
     public static void main( String[] args ) throws InvocationTargetException, IllegalAccessException {
         Object obj = new Test();
         Class<?> clazz = obj.getClass();
