@@ -1,4 +1,4 @@
-package org.itstep;
+package org.itstep.Task1;
 
 public class Test {
     @RunIt(a = 1, b = 5)

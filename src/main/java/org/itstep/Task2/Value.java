@@ -1,4 +1,4 @@
-package org.itstep;
+package org.itstep.Task2;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -6,9 +6,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.METHOD)
+@Target(ElementType.FIELD)
 
-public @interface RunIt {
-    int a();
-    int b();
+public @interface Value {
+    String value();
 }
